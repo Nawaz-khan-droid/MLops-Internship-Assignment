@@ -1,0 +1,8 @@
+2026-07-23 21:59:00,452 - INFO - Batch processing job initialized.
+2026-07-23 21:59:00,454 - INFO - Loading configuration file from 'config.yaml'
+2026-07-23 21:59:00,455 - INFO - Configuration validated. Version: 'v1', Seed: 42, Window: 5
+2026-07-23 21:59:00,455 - INFO - Loading dataset from 'data.csv'
+2026-07-23 21:59:00,476 - INFO - Dataset validated successfully. Total rows loaded: 10000
+2026-07-23 21:59:00,476 - INFO - Computing rolling mean on 'close' with window=5...
+2026-07-23 21:59:00,480 - INFO - Generating binary signals (signal = 1 if close > rolling_mean else 0)...
+2026-07-23 21:59:00,481 - INFO - Job completed successfully. Rows: 10000, Signal Rate: 0.4989, Latency: 31ms
